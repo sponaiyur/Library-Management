@@ -4,10 +4,10 @@ This was a simple project undertaken during senior-secondary school, to understa
 ---
 
 ## Features ✨
-👩‍🎓 Has two types of access control - Student and Librarian
-💻 Automatic password generation based on student name (first three letters of the student + @2023)
-📕 Borrowing/Returning of books made simple using the dynamic Treeview layout
-👩‍💻 Admin access includes creating a student account, adding books, viewing overdue books
+- 👩‍🎓 Has two types of access control - Student and Librarian
+- 💻 Automatic password generation based on student name (first three letters of the student + @2023)
+- 📕 Borrowing/Returning of books made simple using the dynamic Treeview layout
+- 👩‍💻 Admin access includes creating a student account, adding books, viewing overdue books
 
 ---
 
@@ -15,13 +15,15 @@ This was a simple project undertaken during senior-secondary school, to understa
 Please ensure your current python version supports tkinter, an in-built graphics module.
 
 But first things first, Install MySQL, if not already present:
-[MySQL download for Windows](https://dev.mysql.com/downloads/installer/)
-- or, install via package manager:
+- [MySQL download for Windows](https://dev.mysql.com/downloads/installer/)
+
+Or, install via package manager:
 ```bash
 sudo apt install mysql-server       # Ubuntu/Debian
 brew install mysql                  # macOS with Homebrew
 ```
 
+- proceed with the application installation:
 ```bash 
 #1. Clone the repository
 git clone https://github.com/sponaiyur/Library-Management
